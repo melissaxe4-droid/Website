@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astral Scripts - Universal Script Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(102, 126, 234, 0.4);
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 4em;
+            font-weight: 900;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            background: linear-gradient(45deg, #fff, #a8edea);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 0 30px rgba(168, 237, 234, 0.5);
+        }
+
+        .search-section {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .search-title {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #a8edea;
+        }
+
+        .search-bar {
+            width: 100%;
+            max-width: 600px;
+            padding: 15px 25px;
+            font-size: 1.1em;
+            border: 2px solid #667eea;
+            border-radius: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .search-bar:focus {
+            outline: none;
+            border-color: #a8edea;
+            box-shadow: 0 0 20px rgba(168, 237, 234, 0.5);
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .search-bar::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .info-box {
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid #667eea;
+            border-radius: 20px;
+            padding: 40px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            margin-bottom: 40px;
+        }
+
+        .info-box h2 {
+            font-size: 2.5em;
+            margin-bottom: 25px;
+            color: #a8edea;
+            text-align: center;
+        }
+
+        .info-box p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #e0e0e0;
+            margin-bottom: 20px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .feature-card {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
+            padding: 25px;
+            border-radius: 15px;
+            border: 1px solid rgba(168, 237, 234, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+            border-color: #a8edea;
+        }
+
+        .feature-card h3 {
+            color: #a8edea;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        .feature-card p {
+            font-size: 1em;
+            color: #d0d0d0;
+        }
+
+        .highlight {
+            color: #a8edea;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ASTRAL SCRIPTS</h1>
+        </header>
+
+        <div class="search-section">
+            <div class="search-title">• Finding and Script Search</div>
+            <input type="text" class="search-bar" placeholder="Search for scripts...">
+        </div>
+
+        <div class="info-box">
+            <h2>Why This Universal Script Hub is the Best</h2>
+            <p>
+                Welcome to <span class="highlight">ASTRAL SCRIPTS</span> - the ultimate universal script hub that stands above the rest! 
+                Our platform features the <span class="highlight">2nd best GUI of all time</span>, delivering a sleek, intuitive, and 
+                blazingly fast interface that makes script execution effortless.
+            </p>
+            <p>
+                We offer an extensive collection of powerful add-ons including <span class="highlight">Fly</span>, 
+                <span class="highlight">Teleport (TP)</span>, <span class="highlight">ESP</span>, 
+                <span class="highlight">Universal Aimbot</span>, and <span class="highlight">a lot more</span>! 
+                Whether you're looking for movement enhancements, visual advantages, or precision tools, we've got everything you need.
+            </p>
+
+            <div class="features">
+                <div class="feature-card">
+                    <h3>✈️ Fly</h3>
+                    <p>Soar through any environment with smooth, responsive flight controls.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📍 Teleport</h3>
+                    <p>Instantly move to any location with precision teleportation.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>👁️ ESP</h3>
+                    <p>Enhanced visual awareness with full ESP capabilities.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🎯 Universal Aimbot</h3>
+                    <p>Precision targeting that works across multiple platforms.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚡ Lightning Fast</h3>
+                    <p>Optimized performance with minimal resource usage.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔄 Regular Updates</h3>
+                    <p>Constantly updated with new features and improvements.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
